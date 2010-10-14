@@ -1,6 +1,7 @@
 set nocompatible
 set history=500
 set dir=~/.vim/tmp	
+syntax on
 
 " Line Numbering
 set number
@@ -16,5 +17,5 @@ set smartcase
 set wildmode=longest,list
 
 " Themes
-colorscheme darkblue
+colorscheme elflord
 
