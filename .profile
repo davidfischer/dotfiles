@@ -31,3 +31,13 @@ fi
 export SVN_EDITOR="vi"
 export GIT_EDITOR=$SVN_EDITOR
 
+##########################################################################
+# Local Environment
+# 
+# Put machine specific environment configuration into ~/.profile.local
+##########################################################################
+if [ -f ~/.profile.local ]
+then
+	. ~/.profile.local
+fi
+
