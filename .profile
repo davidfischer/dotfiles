@@ -25,6 +25,9 @@ then
 	alias vi="/usr/bin/vim"
 fi
 
+# ignore duplicates in bash history
+export HISTCONTROL=ignoredups
+
 ##########################################################################
 # Source Control Environments
 ##########################################################################

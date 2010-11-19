@@ -10,6 +10,9 @@ nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 " Tabs and Indentation
 set smartindent
 filetype plugin indent on
+" Show tabs in the editor as >-----
+:set list!
+:set listchars=tab:>-
 
 " Searching
 set ignorecase
