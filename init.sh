@@ -14,3 +14,6 @@ ln -s shellcfg/.vimrc
 rm -rf .vim
 ln -s shellcfg/.vim
 
+rm -rf .gitconfig
+ln -s shellcfg/.gitconfig
+
