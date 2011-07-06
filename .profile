@@ -35,6 +35,11 @@ export SVN_EDITOR="vi"
 export GIT_EDITOR=$SVN_EDITOR
 
 ##########################################################################
+# Miscellaneous Settings
+##########################################################################
+export PYTHONDONTWRITEBYTECODE=1
+
+##########################################################################
 # Local Environment
 # 
 # Put machine specific environment configuration into ~/.profile.local
