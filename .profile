@@ -37,7 +37,7 @@ export GIT_EDITOR=$SVN_EDITOR
 ##########################################################################
 # Miscellaneous Settings
 ##########################################################################
-export PYTHONDONTWRITEBYTECODE=1
+#export PYTHONDONTWRITEBYTECODE=1
 
 ##########################################################################
 # Local Environment
