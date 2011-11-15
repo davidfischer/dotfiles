@@ -1,3 +1,6 @@
 [user]
 	email = djfische@gmail.com
 	name = David Fischer
+[alias]
+	ci = commit
+	st = status
