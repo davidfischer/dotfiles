@@ -1,6 +1,7 @@
 [user]
 	email = djfische@gmail.com
 	name = David Fischer
+	signingkey = A737AB60
 [alias]
 	ci = commit
 	st = status
