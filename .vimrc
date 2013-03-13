@@ -2,6 +2,7 @@ set nocompatible
 set history=500
 set dir=~/.vim/tmp
 syntax on
+filetype plugin indent on
 
 " Line Numbering
 set number
@@ -15,6 +16,10 @@ autocmd syntax * SpaceHi
 set ignorecase
 set smartcase
 set wildmode=longest,list
+
+" Pathogen
+call pathogen#infect()
+call pathogen#helptags()
 
 " Themes
 colorscheme elflord
