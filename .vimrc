@@ -2,6 +2,9 @@ set nocompatible
 set history=500
 set dir=~/.vim/tmp
 syntax on
+set ruler
+set showtabline=2   " Always show tab bar
+set laststatus=2    " Always show status bar
 filetype plugin indent on
 
 " Line Numbering
