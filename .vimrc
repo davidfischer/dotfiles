@@ -22,7 +22,11 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " Themes
-colorscheme elflord
+try
+  colorscheme elflord
+catch
+  colorscheme desert
+endtry
 
 """"""""
 " Python
