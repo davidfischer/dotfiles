@@ -32,7 +32,8 @@ endtry
 " Python
 """"""""
 " Python-mode
-" Enable python folding
+" Disable python folding
 let g:pymode_folding = 0
+" Rope is slow
 let g:pymode_rope = 0
 
