@@ -5,5 +5,7 @@
 [alias]
 	ci = commit
 	st = status
+	llog = log --show-signature
+	graph = log --graph --oneline --decorate --all
 [color]
 	ui = auto
