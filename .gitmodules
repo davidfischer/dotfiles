@@ -1,0 +1,6 @@
+[submodule "vim/bundle/editorconfig"]
+	path = vim/bundle/editorconfig
+	url = git://github.com/editorconfig/editorconfig-vim.git
+[submodule "vim/bundle/spacehi"]
+	path = vim/bundle/spacehi
+	url = git://github.com/vim-scripts/spacehi.vim.git
