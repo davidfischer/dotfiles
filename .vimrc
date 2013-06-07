@@ -5,13 +5,14 @@ syntax on
 set ruler
 set showtabline=2   " Always show tab bar
 set laststatus=2    " Always show status bar
+filetype plugin indent on
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Line Numbering
 set number
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 
 " Tabs and Indentation
-" filetype plugin indent on
 autocmd syntax * SpaceHi
 
 " Searching
