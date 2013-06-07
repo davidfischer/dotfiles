@@ -2,6 +2,7 @@
 
 DOTFILES=~/.dotfiles
 
+cd $DOTFILES && git submodule update --init
 rm -f ~/.bashrc && ln -s $DOTFILES/bashrc ~/.bashrc
 rm -f ~/.gitconfig && ln -s $DOTFILES/gitconfig ~/.gitconfig
 rm -f ~/.editorconfig && ln -s $DOTFILES/editorconfig ~/.editorconfig
