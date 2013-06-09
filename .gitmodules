@@ -4,3 +4,6 @@
 [submodule "vim/bundle/spacehi"]
 	path = vim/bundle/spacehi
 	url = git://github.com/vim-scripts/spacehi.vim.git
+[submodule "vim/bundle/jedi-vim"]
+	path = vim/bundle/jedi-vim
+	url = git://github.com/davidhalter/jedi-vim.git
