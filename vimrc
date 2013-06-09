@@ -30,3 +30,4 @@ catch
 endtry
 
 let g:jedi#popup_on_dot = 0     " Jedi doesn't autocomplete by default
+let g:syntastic_python_checkers=['flake8']
