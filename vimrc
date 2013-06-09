@@ -28,3 +28,6 @@ try
 catch
   colorscheme desert
 endtry
+
+let g:jedi#auto_initialization = 0
+let g:jedi#auto_vim_configuration = 0
