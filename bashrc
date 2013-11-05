@@ -6,7 +6,7 @@
 if [ -t 0 ]
 then
 	# Sets the shell prompt
-	export PS1="[\t][\[$(tput bold)\]\[$(tput setaf 2)\]\u@\h\[$(tput sgr0)\] \W]% "
+	export PS1="[\t][\[$(tput bold)\]\[$(tput setaf 2)\]\u@\h\[$(tput sgr0)\] \W \[$(tput bold)\]\[$(tput setaf 1)\]\${?##0}\[$(tput sgr0)\]]% "
 
 	if [ `uname -s` == "Darwin" ]
 	then
