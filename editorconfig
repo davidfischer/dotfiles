@@ -18,5 +18,11 @@ indent_size = 4
 indent_style = space
 indent_size = 2
 
+[*.php]
+insert_final_newline = false
+
 [.git**config]
+indent_style = tab
+
+[Makefile]
 indent_style = tab
