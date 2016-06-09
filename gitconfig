@@ -3,9 +3,10 @@
 	name = David Fischer
 	signingkey = A737AB60
 [alias]
-	ci = commit
+	ci = commit -vS
 	st = status
 	llog = log --show-signature
 	graph = log --graph --oneline --decorate --all
+	merge-harder = git merge -s patience
 [color]
 	ui = auto
