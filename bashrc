@@ -38,7 +38,7 @@ export GIT_EDITOR=$SVN_EDITOR
 # Miscellaneous Settings
 ##########################################################################
 #export PYTHONDONTWRITEBYTECODE=1
-alias runserver="python -m SimpleHTTPServer 8000"
+alias runserver="python -m SimpleHTTPServer 5000"
 
 ##########################################################################
 # Local Environment
