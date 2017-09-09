@@ -7,6 +7,11 @@
 	st = status
 	llog = log --show-signature
 	graph = log --graph --oneline --decorate --all
-	merge-harder = git merge -s patience
+	merge-harder = merge --no-commit -s recursive -X patience
 [color]
 	ui = auto
+[core]
+	autocrlf = input
+	safecrlf = true
+[commit]
+	gpgsign = true

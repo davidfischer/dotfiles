@@ -39,6 +39,7 @@ export GIT_EDITOR=$SVN_EDITOR
 ##########################################################################
 #export PYTHONDONTWRITEBYTECODE=1
 alias runserver="python -m SimpleHTTPServer 5000"
+alias runserver3="python -m http.server 5000"
 
 ##########################################################################
 # Local Environment
