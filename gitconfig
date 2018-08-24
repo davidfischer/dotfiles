@@ -11,7 +11,9 @@
 [color]
 	ui = auto
 [core]
-	autocrlf = input
-	safecrlf = true
+	autocrlf = false
+	safecrlf = false
 [commit]
 	gpgsign = true
+[gpg]
+	program = gpg

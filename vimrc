@@ -24,7 +24,7 @@ set wildmode=longest,list
 
 " Themes
 try
-  colorscheme elflord
+  colorscheme delek
 catch
   colorscheme desert
 endtry

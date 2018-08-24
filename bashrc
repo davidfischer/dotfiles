@@ -2,11 +2,29 @@
 # SHELL Environment
 ##########################################################################
 
+export COLOR_NC='\e[0m' # No Color
+export COLOR_WHITE='\e[1;37m'
+export COLOR_BLACK='\e[0;30m'
+export COLOR_BLUE='\e[0;34m'
+export COLOR_LIGHT_BLUE='\e[1;34m'
+export COLOR_GREEN='\e[0;32m'
+export COLOR_LIGHT_GREEN='\e[1;32m'
+export COLOR_CYAN='\e[0;36m'
+export COLOR_LIGHT_CYAN='\e[1;36m'
+export COLOR_RED='\e[0;31m'
+export COLOR_LIGHT_RED='\e[1;31m'
+export COLOR_PURPLE='\e[0;35m'
+export COLOR_LIGHT_PURPLE='\e[1;35m'
+export COLOR_BROWN='\e[0;33m'
+export COLOR_YELLOW='\e[1;33m'
+export COLOR_GRAY='\e[0;30m'
+export COLOR_LIGHT_GRAY='\e[0;37m'
+
 # Test if this is an interactive shell. Only set prompts if it is
 if [ -t 0 ]
 then
 	# Sets the shell prompt
-	export PS1="[\t][\[$(tput bold)\]\[$(tput setaf 2)\]\u@\h\[$(tput sgr0)\] \W \[$(tput bold)\]\[$(tput setaf 1)\]\${?##0}\[$(tput sgr0)\]]% "
+	export PS1="[\t][\[$(tput bold)\]\[$(tput setaf 4)\]\u@\h\[$(tput sgr0)\] \W \[$(tput bold)\]\[$(tput setaf 1)\]\${?##0}\[$(tput sgr0)\]]% "
 
 	if [ `uname -s` == "Darwin" ]
 	then
@@ -38,8 +56,8 @@ export GIT_EDITOR=$SVN_EDITOR
 # Miscellaneous Settings
 ##########################################################################
 #export PYTHONDONTWRITEBYTECODE=1
-alias runserver="python -m SimpleHTTPServer 5000"
-alias runserver3="python -m http.server 5000"
+alias runserver2="python -m SimpleHTTPServer 5000"
+alias runserver="python -m http.server 5000"
 
 ##########################################################################
 # Local Environment
