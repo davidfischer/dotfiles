@@ -2,7 +2,7 @@
 
 DOTFILES=~/.dotfiles
 
-rm -f ~/.bashrc && ln -s $DOTFILES/bashrc ~/.bashrc
+rm -f ~/.zshrc && ln -s $DOTFILES/zshrc ~/.zshrc
 rm -f ~/.gitconfig && ln -s $DOTFILES/gitconfig ~/.gitconfig
 rm -f ~/.editorconfig && ln -s $DOTFILES/editorconfig ~/.editorconfig
 rm -f ~/.vimrc && ln -s $DOTFILES/vimrc ~/.vimrc

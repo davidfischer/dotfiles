@@ -1,5 +1,9 @@
 ##########################################################################
 # SHELL Environment
+#
+# This is deprecated as I now use zsh as my default shell.
+# This is retained for use on systems where zsh isn't loaded.
+# See zshrc.
 ##########################################################################
 
 export COLOR_NC='\e[0m' # No Color
@@ -52,12 +56,30 @@ export HISTCONTROL=ignoredups
 export SVN_EDITOR="vi"
 export GIT_EDITOR=$SVN_EDITOR
 
+
 ##########################################################################
 # Miscellaneous Settings
 ##########################################################################
 #export PYTHONDONTWRITEBYTECODE=1
 alias runserver2="python -m SimpleHTTPServer 5000"
 alias runserver="python -m http.server 5000"
+
+
+##########################################################################
+# Shell Completions
+##########################################################################
+# Must have bash, bash-completion, and git installed from Homebrew
+if type brew &>/dev/null; then
+    HOMEBREW_PREFIX="$(brew --prefix)"
+    if [[ -r "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]; then
+        source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"
+    else
+        for COMPLETION in "${HOMEBREW_PREFIX}/etc/bash_completion.d/"*; do
+            [[ -r "$COMPLETION" ]] && source "$COMPLETION"
+        done
+    fi
+fi
+
 
 ##########################################################################
 # Local Environment
