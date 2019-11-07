@@ -1,0 +1,10 @@
+# A global ignore file for all git repositories
+
+# Python specific ignores
+.eggs
+.idea
+.venv
+.python-version
+
+# MacOS specific ignores
+.DS_Store
