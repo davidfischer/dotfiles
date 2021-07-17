@@ -5,9 +5,12 @@
 ##########################################################################
 
 # Set zsh history file length
-HISTFILE=~/.zsh_history
-HISTSIZE=9999
-SAVEHIST=9999
+setopt INC_APPEND_HISTORY
+setopt EXTENDED_HISTORY
+export HISTTIMEFORMAT="[%F %T] "
+export HISTFILE=~/.zsh_history
+export HISTSIZE=999999
+export SAVEHIST=999999
 
 # Load completions
 rm -f ~/.zcompdump
@@ -31,7 +34,7 @@ RPROMPT=\$vcs_info_msg_0_
 
 autoload -U colors && colors
 # http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html#Prompt-Expansion
-PROMPT="[%*][%B%F{blue}%n@%m%f%b %1~%(?.. %B%F{red}%?%f%b)] \$ "
+PROMPT="[%*][%B%F{green}%n%f@%F{blue}%m%f%b %1~%(?.. %B%F{red}%?%f%b)] \$ "
 
 
 ##########################################################################

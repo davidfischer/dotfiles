@@ -5,6 +5,10 @@
 .idea
 .venv
 .python-version
+.ipython
 
 # MacOS specific ignores
 .DS_Store
+
+# NodeJS ignores
+.nvmrc
