@@ -1,12 +1,12 @@
 [submodule "vim/bundle/editorconfig"]
 	path = vim/bundle/editorconfig
-	url = git://github.com/editorconfig/editorconfig-vim.git
+	url = git@github.com:editorconfig/editorconfig-vim.git
 [submodule "vim/bundle/spacehi"]
 	path = vim/bundle/spacehi
-	url = git://github.com/vim-scripts/spacehi.vim.git
+	url = git@github.com:vim-scripts/spacehi.vim.git
 [submodule "vim/bundle/jedi-vim"]
 	path = vim/bundle/jedi-vim
-	url = git://github.com/davidhalter/jedi-vim.git
+	url = git@github.com:davidhalter/jedi-vim.git
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
+	url = git@github.com:vim-syntastic/syntastic.git
