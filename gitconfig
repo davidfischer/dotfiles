@@ -3,6 +3,7 @@
 	name = David Fischer
 	signingkey = A737AB60
 [alias]
+	co = checkout
 	ci = commit -vS
 	st = status
 	llog = log --show-signature
@@ -17,3 +18,11 @@
 	gpgsign = true
 [gpg]
 	program = gpg
+[init]
+	# Git 2.28+
+	defaultBranch = main
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

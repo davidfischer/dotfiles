@@ -4,11 +4,15 @@
 .eggs
 .idea
 .venv
+.poetryenv
 .python-version
 .ipython
+.vscode
 
 # MacOS specific ignores
 .DS_Store
 
 # NodeJS ignores
 .nvmrc
+.nenv
+node_modules
