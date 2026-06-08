@@ -9,8 +9,8 @@ setopt INC_APPEND_HISTORY
 setopt EXTENDED_HISTORY
 export HISTTIMEFORMAT="[%F %T] "
 export HISTFILE=~/.zsh_history
-export HISTSIZE=999999
-export SAVEHIST=999999
+export HISTSIZE=4096
+export SAVEHIST=4096
 
 # Load completions
 rm -f ~/.zcompdump
@@ -78,3 +78,5 @@ if [ -f ~/.profile.local ]
 then
     source ~/.profile.local
 fi
+
+. "$HOME/.local/bin/env"
