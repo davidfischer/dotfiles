@@ -23,11 +23,7 @@ set smartcase
 set wildmode=longest,list
 
 " Themes
-try
-  colorscheme delek
-catch
-  colorscheme desert
-endtry
+colorscheme desert
 
 let g:jedi#popup_on_dot = 0     " Jedi doesn't autocomplete by default
 let g:syntastic_python_checkers=['flake8']
